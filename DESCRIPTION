@@ -3,7 +3,10 @@ Title: Miscellaneous functions
 Version: 0.0.0.9000
 Authors@R: 
     person("Axel", "Verrier", , "axel.verrier7@gmail.com", role = c("aut", "cre"))
-Description: Nothing revolutionary but some functions I have created and find useful. Also a way for me to learn how to create an R package. 
+Description: 
+    Nothing revolutionary but some functions I have created and find useful. 
+    Some game theory function I'm trying to implement. 
+    Also a way for me to learn how to create an R package and master S3 OOS. 
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,4 +17,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     graphics,
+    purrr,
     stats
